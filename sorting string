@@ -1,0 +1,31 @@
+'''INPUT:ABCDabcd
+   OUTPUT:AaBbCcDd
+'''
+st=input("enter string")
+li=[]
+def smal(li,i):
+	if i!=0:
+		a.append(li[i])
+	for j in range(i+1,len(li)):
+		if li[i]==li[j]:
+			a.append(li[j])
+			li[j]="removed"
+		if li[i]==li[j].upper():
+			#print(li[j])
+			a.append(li[j])
+			li[j]="removed"
+	return 
+for i in range(len(st)):
+	li.append(st[i])
+li.sort()
+a=[li[0]]
+for i in range(len(li)):
+	if li[i]=="removed":
+		continue
+	c=smal(li,i)
+for i in range(len(a)):
+	print(a[i],end="")	
+		
+	
+
+	
