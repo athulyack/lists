@@ -1,0 +1,35 @@
+st=input()
+print(st.isalnum())
+count=0
+for i in range(len(st)):
+    if st[i].isalpha():
+        count+=1
+if count==0:
+    print(False)
+else:
+    print(True)
+count=0
+for i in range(len(st)):
+    if st[i].isdigit():
+        count+=1
+if count==0:
+    print(False)
+else:
+    print(True)
+count=0
+for i in range(len(st)):
+    if st[i].islower():
+        count+=1
+if count==0:
+    print(False)
+else:
+    print(True)
+count=0
+for i in range(len(st)):
+    if st[i].isupper():
+        count+=1
+if count==0:
+    print(False)
+else:
+    print(True)
+
