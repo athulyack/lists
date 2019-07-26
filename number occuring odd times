@@ -1,0 +1,9 @@
+n = [int(n) for n in input().split()]
+b=0
+for coin in n:
+	b=n.count(coin)
+	if b%2!=0:
+		print(coin)
+		break
+
+	 
