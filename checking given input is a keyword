@@ -1,0 +1,10 @@
+li=['False','class','finally','is','return','None','continue','for']
+str1=input()
+a=0
+for i in li:
+	if i==str1:
+		print("keyword")
+		a=1
+		break
+if a==0:
+	print("not")
