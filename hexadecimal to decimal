@@ -1,0 +1,22 @@
+num=input()
+num2=num[::-1]
+p=0
+s=0
+for i in num2:
+	if i=='A':
+		i=10
+	if i=='B':
+		i=11
+	if i=='C':
+		i=12
+	if i=='D':
+		i=13
+	if i=='E':
+		i=14
+	if i=='F':
+		i=15
+	i=int(i)
+	a=16**p*i
+	s+=a
+	p+=1
+print(s)
