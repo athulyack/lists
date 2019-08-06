@@ -1,0 +1,4 @@
+s=input("enter string:")
+w=input("enter word to be searched:")
+l=s.split()
+print(l.count(w))
