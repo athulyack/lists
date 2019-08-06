@@ -1,0 +1,10 @@
+l=[]
+a=""
+s=input("enter string:")
+index=int(input("enter index:"))
+for i in range(len(s)):
+	l.append(s[i])
+l.remove(l[index])
+for i in l:
+	a+=i
+print(a)
