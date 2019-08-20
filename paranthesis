@@ -1,0 +1,19 @@
+a=input()
+b=list(a)
+f=0
+for i in range(len(b)):
+	if b[0]==')':
+		print('Invalid')
+		f=1
+		break
+if f==0:
+	c=0
+	for i in b:
+		if i=='(':
+			c+=1
+		else:
+			c-=1
+	if c==0:
+		print("Valid")
+	else:
+		print("invalid")
